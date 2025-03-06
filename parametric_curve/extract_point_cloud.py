@@ -138,4 +138,4 @@ for i, scene_name in enumerate(scene_names):
     write_path = os.path.join(target_path, scene_name + ".ply")
     o3d.io.write_point_cloud(write_path, pcd, write_ascii=True)     # Set write_ascii to True to output in ascii format, otherwise binary format will be used.
 
-    plt_vis(pcd, save_path=None)
+    #plt_vis(pcd, save_path=None)
